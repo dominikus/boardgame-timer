@@ -1,0 +1,60 @@
+// customize bootstrap variables here:
+@import variables
+@import bootstrap
+
+// sticky footer code
+
+html, body
+	height: 100%
+
+	font-family: 'Slabo 27px'
+
+.wrapper
+	min-height: 100%
+	height: auto !important
+	height: 100%
+	margin: 0 auto -2.5em
+
+footer, .push
+	height: 2.5em
+
+.push
+	margin-top: 2.5em
+
+footer
+	background: #F0F0F0
+	padding-top: .5em
+
+.button
+	font-size: 2em
+	margin: 20px
+
+.player-panel
+	height: 200px
+
+	img
+		float: right
+		max-width: 100px
+		margin-top: 20px
+		cursor: pointer
+
+	input
+		display: none
+
+	h2
+		margin: 5px 0
+		font-size: 1.3em
+		line-height: 1.3em
+		&.time
+			font-size: 2em
+
+	&.active
+		h1
+			color: #ff0000
+		h2.time
+			color: #ff0000
+			margin-bottom: 0px
+
+#reset_button
+	&.really
+		color: #ff0000
