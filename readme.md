@@ -1,6 +1,4 @@
-installation:
+# Boardgame Timer
 
-gem install bootstrap-sass
-npm install
-bower install
+Useful for when your buddies just take a little _too_ long each turn.
 
